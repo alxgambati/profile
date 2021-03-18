@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.top-box, .bottom-box {
+  text-align: center;
+  margin: 40px 340px;
+  background-color: white;
+  box-shadow: 0px 0px 30px grey;
+  border-radius: 10px;
+  padding: 40px 70px 20px 70px;
+}
+
+.bottom-box ul li { display: inline; }
+
+body {
+  background-color: #E8F8F5 ;
+  color: #0E6251;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 30px;
+
+}
+
+p {
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.profile-img {
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+li {
+  margin: 10px 10px 10px 10px;
+}
+
+a {
+  color: #005248;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+button {
+  width: 260px;
+  height: 50px;
+  background-color: #00b359;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.lewagon {
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+@media (max-width: 1280px) {
+  /* For a screen < 960px, this CSS will be read */
+  .top-box, .bottom-box {
+    margin: 30px 280px;
+    box-shadow: 0px 0px 30px grey;
+    padding: 40px 70px 20px 70px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 720px, this CSS will be read */
+  .top-box, .bottom-box {
+    margin: 30px 200px;
+    box-shadow: 0px 0px 30px grey;
+    padding: 40px 70px 20px 70px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 540px, this CSS will be read */
+  .top-box, .bottom-box {
+    margin: 30px 100px;
+    box-shadow: 0px 0px 30px grey;
+    padding: 40px 70px 20px 70px;
+  }
+}
